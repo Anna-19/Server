@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Курсовая работа: Класс Listener</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Курсовая работа
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pri-attribs">Закрытые данные</a> &#124;
+<a href="classListener-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс Listener</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Класс для соединения с клиентом.  
+ <a href="classListener.html#details">Подробнее...</a></p>
+
+<p><code>#include &lt;<a class="el" href="listener_8h_source.html">listener.h</a>&gt;</code></p>
+<div class="dynheader">
+Граф связей класса Listener:</div>
+<div class="dyncontent">
+<div class="center"><img src="classListener__coll__graph.png" border="0" usemap="#aListener_coll__map" alt="Collaboration graph"/></div>
+<map name="aListener_coll__map" id="aListener_coll__map">
+<area shape="rect" title="Класс для соединения с клиентом." alt="" coords="5,95,80,121"/>
+<area shape="rect" href="classLogger.html" title="Класс записывает сообщения и время их получения в файл журнала." alt="" coords="9,5,76,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">см. легенду</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:ab0e0d5bf1a5354da32df6855e0a9a600"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classListener.html#ab0e0d5bf1a5354da32df6855e0a9a600">Listener</a> (int port, int queue_length, const map&lt; string, string &gt; &amp;client_base, <a class="el" href="classLogger.html">Logger</a> log)</td></tr>
+<tr class="memdesc:ab0e0d5bf1a5354da32df6855e0a9a600"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор.  <a href="classListener.html#ab0e0d5bf1a5354da32df6855e0a9a600">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab0e0d5bf1a5354da32df6855e0a9a600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79aa532321844f0ff8d0056617470e15"><td class="memItemLeft" align="right" valign="top"><a id="a79aa532321844f0ff8d0056617470e15"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classListener.html#a79aa532321844f0ff8d0056617470e15">start_listen</a> ()</td></tr>
+<tr class="memdesc:a79aa532321844f0ff8d0056617470e15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Установить сервер и запустить прослушивание. <br /></td></tr>
+<tr class="separator:a79aa532321844f0ff8d0056617470e15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Закрытые данные</h2></td></tr>
+<tr class="memitem:a66edda976959bdc819c0d80ad143f680"><td class="memItemLeft" align="right" valign="top"><a id="a66edda976959bdc819c0d80ad143f680"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classListener.html#a66edda976959bdc819c0d80ad143f680">server_socket</a></td></tr>
+<tr class="memdesc:a66edda976959bdc819c0d80ad143f680"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сокет <br /></td></tr>
+<tr class="separator:a66edda976959bdc819c0d80ad143f680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b15c47fe7be041c06b2d24ec7d83050"><td class="memItemLeft" align="right" valign="top"><a id="a6b15c47fe7be041c06b2d24ec7d83050"></a>
+map&lt; string, string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classListener.html#a6b15c47fe7be041c06b2d24ec7d83050">base</a></td></tr>
+<tr class="memdesc:a6b15c47fe7be041c06b2d24ec7d83050"><td class="mdescLeft">&#160;</td><td class="mdescRight">Массив с данными клиентов &lt;id:pass&gt; <br /></td></tr>
+<tr class="separator:a6b15c47fe7be041c06b2d24ec7d83050"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a052c73e704cf7969ca3c8eebb3a734b8"><td class="memItemLeft" align="right" valign="top"><a id="a052c73e704cf7969ca3c8eebb3a734b8"></a>
+<a class="el" href="classLogger.html">Logger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classListener.html#a052c73e704cf7969ca3c8eebb3a734b8">logger</a></td></tr>
+<tr class="memdesc:a052c73e704cf7969ca3c8eebb3a734b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Копия объекта записи в журнал. <br /></td></tr>
+<tr class="separator:a052c73e704cf7969ca3c8eebb3a734b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Класс для соединения с клиентом. </p>
+</div><h2 class="groupheader">Конструктор(ы)</h2>
+<a id="ab0e0d5bf1a5354da32df6855e0a9a600"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0e0d5bf1a5354da32df6855e0a9a600">&#9670;&nbsp;</a></span>Listener()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Listener::Listener </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>queue_length</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const map&lt; string, string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>client_base</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classLogger.html">Logger</a>&#160;</td>
+          <td class="paramname"><em>log</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Конструктор. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">port</td><td>Порт. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">queue_length</td><td>Длина очереди клиентов. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">client_base</td><td>Массив с данными клиентов &lt;id:pass&gt;. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">log</td><td>Объект записи в журнал.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Исключения</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classServerError.html" title="Общий класс исключений сервера.">ServerError</a></td><td>Ошибка создания сервера. <div class="fragment"><div class="line">what = <span class="stringliteral">&quot;Ошибка создания сокета&quot;</span></div>
+<div class="line">       <span class="stringliteral">&quot;Ошибка настройки сокета&quot;</span></div>
+<div class="line">       <span class="stringliteral">&quot;Ошибка в &#39;bind&#39; сокета&quot;</span></div>
+<div class="line">       <span class="stringliteral">&quot;Не удалось запустить &#39;listen&#39;&quot;</span></div>
+</div><!-- fragment --> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>Объявления и описания членов классов находятся в файлах:<ul>
+<li><a class="el" href="listener_8h_source.html">listener.h</a></li>
+<li>listener.cpp</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>
